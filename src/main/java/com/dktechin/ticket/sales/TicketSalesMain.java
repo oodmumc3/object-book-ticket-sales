@@ -25,7 +25,6 @@ public class TicketSalesMain {
         Bag dontHaveInvitationBag = new Bag(100L);
         Audience dontHaveInvitationAudience = new Audience(dontHaveInvitationBag);
         theater.enter(dontHaveInvitationAudience);
-
         System.out.println("dontHaveInvitationAudience :: " + theater);
     }
 }
